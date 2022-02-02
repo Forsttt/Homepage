@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(146, 178, 221, 1);
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto;
+    text-align: center;
+}
+
+
+
+.mainHeader {
+    border: 5px black solid;
+    border-radius: 20px;
+    background-color: white;
+    margin: 30px;
+    box-shadow: 10px 10px 10px rgb(41, 38, 38)
+}
+
+.image {
+    border: 5px black solid;
+    box-shadow: 10px 10px 10px rgb(41, 38, 38)
+}
+
+.subHeader {
+    border: 5px black solid;
+    border-radius: 20px;
+    background-color: white;
+    margin: 30px;
+    box-shadow: 10px 10px 10px rgb(41, 38, 38)
+}
+
+.button {
+    margin: auto;
+    text-align: center;
+
+}
+
+.navigation {
+    list-style: none;
+}
+
+.navigationSub {
+    margin: 10px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+}
+
+.link:hover {
+    color: yellow;
+}
+
+
+.blue {
+    background-color: rgb(230, 201, 206);
+}
+
+
+.table {
+    margin: auto;
+
+
+    background-color: white;
+    border-collapse: collapse;
+
+}
+
+.tableHeader {
+    background-color: yellow;
+}
+
+.tableCell {
+    border: 3px black solid;
+    text-align: center;
+}
+
+
+.tableRow:hover {
+    background-color: rgb(134, 134, 134);
+}
+
