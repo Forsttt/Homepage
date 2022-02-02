@@ -1,0 +1,22 @@
+.table {
+    margin: auto;
+
+
+    background-color: white;
+    border-collapse: collapse;
+
+}
+
+.table__header {
+    background-color: yellow;
+}
+
+.table__cell {
+    border: 3px black solid;
+    text-align: center;
+}
+
+
+.table__row:hover {
+    background-color: rgb(134, 134, 134);
+}
