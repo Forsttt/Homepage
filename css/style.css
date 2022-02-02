@@ -15,33 +15,9 @@ html {
     text-align: center;
 }
 
-
-
-.mainHeader {
-    border: 5px black solid;
-    border-radius: 20px;
-    background-color: white;
-    margin: 30px;
-    box-shadow: 10px 10px 10px rgb(41, 38, 38)
-}
-
-.image {
-    border: 5px black solid;
-    box-shadow: 10px 10px 10px rgb(41, 38, 38)
-}
-
-.subHeader {
-    border: 5px black solid;
-    border-radius: 20px;
-    background-color: white;
-    margin: 30px;
-    box-shadow: 10px 10px 10px rgb(41, 38, 38)
-}
-
 .button {
     margin: auto;
     text-align: center;
-
 }
 
 .navigation {
@@ -63,32 +39,6 @@ html {
     color: yellow;
 }
 
-
 .blue {
     background-color: rgb(230, 201, 206);
 }
-
-
-.table {
-    margin: auto;
-
-
-    background-color: white;
-    border-collapse: collapse;
-
-}
-
-.tableHeader {
-    background-color: yellow;
-}
-
-.tableCell {
-    border: 3px black solid;
-    text-align: center;
-}
-
-
-.tableRow:hover {
-    background-color: rgb(134, 134, 134);
-}
-
