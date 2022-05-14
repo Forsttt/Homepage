@@ -1,15 +1,26 @@
 {
+   const welcome = () => {
     console.log("Witam");
+   };
+
 
 const changeBackground = () => {
+const buttonElement = document.querySelector(".js-button")
 
-button.addEventListener("click", () => {
-    const body = document.querySelector(".js-body");
+buttonElement.addEventListener("click", () => {
+    const bodyElement = document.querySelector(".js-body");
     const themeName = document.querySelector(".js-themeName");
 
-    body.classList.toggle("colorChange");
+    bodyElement.classList.toggle("colorChange");
     themeName.innerText = body.classList.contains("colorChange") ? "jasny niebieski" : "jasny różowy";
 });
 }
 
+const init = () => {
+    welcome();
+    changeBackground();
+}
+
+init();
+    
 }
