@@ -12,7 +12,7 @@ buttonElement.addEventListener("click", () => {
     const themeName = document.querySelector(".js-themeName");
 
     bodyElement.classList.toggle("colorChange");
-    themeName.innerText = body.classList.contains("colorChange") ? "jasny niebieski" : "jasny różowy";
+    themeName.innerText = bodyElement.classList.contains("colorChange") ? "jasny niebieski" : "jasny różowy";
 });
 }
 
